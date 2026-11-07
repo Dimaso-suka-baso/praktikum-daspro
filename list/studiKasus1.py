@@ -2,18 +2,18 @@
 #Dimas Bagus Pratama
 #2606681
 
-buah = ["mangga", "jeruk", "durian", "jambu", "sawit", "mangga"]
+kekayaanIndonesia = ["Flora", "Hutan", "Fauna", "Pantai", "Adat", "Toleransi"]
 
 #1
-buah[2] = "cherry"
-print(f"1. Ganti item dengan nama ceri menjadi cherry  \n{buah}")
+kekayaanIndonesia[2] = "Lahan Sawit"
+print(f"1. Ganti item dengan nama Hutan menjadi Lahan Sawit  \n{kekayaanIndonesia}")
 
 #2
-buahUser = (input("masukkan nama buah: "))
+nama = (input("masukkan nama kekayaan lain: "))
 index = int(input("masukkan index: "))
-buah.insert(index, buahUser)
-print(f"2. Tambahkan item dengan nama dan index yang ditentukan oleh User \n{buah}")
+kekayaanIndonesia.insert(index, nama)
+print(f"2. Tambahkan item dengan nama dan index yang ditentukan oleh User \n{kekayaanIndonesia}")
 
 #3
-buah.sort()
-print(f"3. Urutkan item pada list sesuai dengan abjadnya \n{buah}")
+kekayaanIndonesia.sort()
+print(f"3. Urutkan item pada list sesuai dengan abjadnya \n{kekayaanIndonesia}")

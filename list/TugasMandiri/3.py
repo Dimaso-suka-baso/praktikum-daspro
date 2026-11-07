@@ -11,6 +11,7 @@ while True :
     if len(listTeman) < 10 :
         print("Nama teman yang anda masukkan kurang")
     else : 
+        print("\nwow anda punya banyak teman")
         break
 
-print(f"List 10 nama teman: \n{listTeman}")
+print(f"Berikut list berisi nama teman anda: \n{listTeman}")
